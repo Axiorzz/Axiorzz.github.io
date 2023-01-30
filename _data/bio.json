@@ -26,11 +26,11 @@
   "skills": [
     {
       "name": "Programming",
-      "keywords": [ "Density Functional Theory (DFT)", "Jupyter Notebook", "Python", "LaTeX", "Amsterdam Modelling Suit (AMS)"]
+      "keywords": [ "Density Functional Theory (DFT)", "Jupyter Notebook", "Python", "LaTeX", "Amsterdam Modelling Suit (AMS)", "Visual Studio Code"]
     },
     {
       "name": "Softwares",
-      "keywords": [ "Excel", "Power Point", "Git/GitHub", "Visual Studio Code", "PS-Trace", "OneNote", "Google Drive", "Samsung Notes", "Office Package", "Miro Board"]
+      "keywords": [ "Excel", "Power Point", "Git/GitHub", "PS-Trace", "OneNote", "Google Drive", "Samsung Notes", "Office Package", "Miro Board"]
     },
     {
       "name": "Laboratory Experience",
