@@ -12,15 +12,17 @@
       { "network": "github", "username": "Axiorzz", "url": "https://github.com/Axiorzz" },
       { "network": "linkedin", "username": "nikolasvitaliti", "url": "https://www.linkedin.com/in/nikolasvitaliti/" }
       
-    ]
-  },
+                ]
+            },
+  
   "interests": [
     { "name": "Green Energy" },
     { "name": "Sustainable Resources" },
     { "name": "Functional Materials" },
     { "name": "Project Management" },
     { "name": "Entrepeneurship" }
-  ],
+              ],
+  
   "skills": [
     {
       "name": "Programming",
@@ -32,9 +34,10 @@
     },
     {
       "name": "Laboratory Experience",
-      "keywords": [ "Pulsed Laser Deposition (PLD)", "X-Ray Diffraction (XRD)", "Reflection high-energy electron diffraction (RHEED)", "Chemistry-Lab", "Solar Cells-Lab", "Manufacturing-Lab" ]
+      "keywords": [ "Pulsed Laser Deposition (PLD)", "X-Ray Diffraction (XRD)", "Reflection high-energy electron diffraction (RHEED)", "Chemistry-Lab", "Solar Cells-                         Lab", "Manufacturing-Lab" ]
     }
-  ],
+            ],
+  
   "education": [
     {
       "institution": "Technical University of Denmark (DTU), Kongens Lyngby, DK",
@@ -55,4 +58,4 @@
       "courses": [
       ]
     }
-  ]
+            ]
