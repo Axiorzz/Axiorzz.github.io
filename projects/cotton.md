@@ -27,7 +27,7 @@ Here I have learned to:
 - Separate and detach the SDC substrate from the STO by dissolving the salt layer.
 - Analyze the final substrate by X-Ray Diffraction (XRD) analysis, utilizing both the complex machine and software for the mentioned means.
 
-Furthermore, I have acquired slightly more specific knowledge in the fuel cells field, along with the choice of materials for such devices
+Furthermore, I have acquired slightly more specific knowledge in the fuel cells field, along with the choice of materials for such devices.
 
 Source: <a href="[https://github.com/jogarces/ics-313-text-game](https://github.com/Axiorzz/Bachelor_work/blob/main/Engineering%20Sciences_Thesis.pdf)"><i class="large github icon "></i>Axiorzz/Bachelor_work</a>
 
