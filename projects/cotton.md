@@ -7,15 +7,15 @@ Oxide Thin Films for Green Energy Application"
 date: 2022
 published: true
 labels:
-  - PUlsed Laser Deposition (PLD)
+  - Pulsed Laser Deposition (PLD)
   - X-Ray Diffraction (XRD)
-  - Reflection high-energy electron diffraction (RHEED)
+  - RHEED
   - LaTeX
   - Paint 3D
 summary: "My Bachelor Thesis in Engineering Sciences"
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/cotton/Thesis-Header.jpg">
 
 Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
 
