@@ -21,14 +21,15 @@ The thesis has focused on the characterization and investigation of micro-Fuel C
 
 The research and experiments have been carried out at the Pulsed Laser Deposition (PLD) Lab. of Rome Tor Vergata, with the help of the PLD team and my supervisor Prof. Simone Sanna.
 
-Here I have learned to: 
-- Operate the vacuum chambers and pumps and set the correct order of magnitude of vacuum inside the latter, such that the amount of impurities and oxygen would be         minimized for the deposition of the different substrates. 
-- Setup and carry out the deposition of said substrates (STO, SAO, SDC), along with the ability to analyze and study the quality of such deposition by using the           Reflection High Energy Electron Diffraction (RHEED) technique.
+Here I have learned to:
+
+- Operate the vacuum chambers and pumps and set the correct order of magnitude of vacuum inside the latter, such that the amount of impurities and oxygen would be minimized for the deposition of the different substrates.
+- Setup and carry out the deposition of said substrates (STO, SAO, SDC), along with the ability to analyze and study the quality of such deposition by using the Reflection High Energy Electron Diffraction (RHEED) technique.
 - Separate and detach the SDC substrate from the STO by dissolving the salt layer.
 - Analyze the final substrate by X-Ray Diffraction (XRD) analysis, utilizing both the complex machine and software for the mentioned means.
 
 Furthermore, I have acquired slightly more specific knowledge in the fuel cells field, along with the choice of materials for such devices.
 
-Source: <a href="[https://github.com/jogarces/ics-313-text-game](https://github.com/Axiorzz/Bachelor_work/blob/main/Engineering%20Sciences_Thesis.pdf)"><i class="large github icon "></i>Axiorzz/Bachelor_work</a>
+Source: <a href="/src/pdf/Engineering%20Sciences_Thesis.pdf"><i class="large github icon "></i>See .pdf</a>
 
-Source: <a href="[[https://github.com/jogarces/ics-313-text-game](https://github.com/Axiorzz/Bachelor_work/blob/main/Engineering%20Sciences_Thesis.pdf)](https://github.com/Axiorzz/Bachelor_work/blob/main/Thesis_Presentation.pdf)"><i class="large github icon "></i>Nikolas_Vitaliti/PPTX_Presentation</a>
+Source: <a href="[https://github.com/jogarces/ics-313-text-game](https://github.com/Axiorzz/Bachelor_work/blob/main/Engineering%20Sciences_Thesis.pdf)](https://github.com/Axiorzz/Bachelor_work/blob/main/Thesis_Presentation.pdf)"><i class="large github icon "></i>Nikolas_Vitaliti/PPTX_Presentation</a>
