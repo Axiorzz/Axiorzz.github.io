@@ -2,13 +2,17 @@
 layout: project
 type: project
 image: img/cotton/Thesis.jpg
-title: "Cotton"
-date: 2014
+title: "Deposition and X-RAY Characterization of
+Oxide Thin Films for Green Energy Application"
+date: 2022
 published: true
 labels:
-  - Lisp
-  - GitHub
-summary: "A text adventure game that I developed for ICS 313."
+  - PUlsed Laser Deposition (PLD)
+  - X-Ray Diffraction (XRD)
+  - Reflection high-energy electron diffraction (RHEED)
+  - LaTeX
+  - Paint 3D
+summary: "My Bachelor Thesis in Engineering Sciences"
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
