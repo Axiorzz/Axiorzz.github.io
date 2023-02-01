@@ -30,6 +30,6 @@ Here I have learned to:
 
 Furthermore, I have acquired slightly more specific knowledge in the fuel cells field, along with the choice of materials for such devices.
 
-My thesis ----> <a href="/src/Thesis/EngineeringSciences_Thesis.pdf"><i class="large github icon "></i>See Thesis Report</a>
+My thesis ---> <a href="/src/Thesis/EngineeringSciences_Thesis.pdf"><i class="large github icon "></i>See Thesis Report</a>
 
-My presentation ----> <a href="/src/Thesis/Presentazione"><i class="large github icon "></i>See Presentation</a>
+My presentation ---> <a href="/src/Thesis/Presentazione.pdf"><i class="large github icon "></i>See Presentation</a>
