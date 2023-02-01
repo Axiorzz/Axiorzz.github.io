@@ -32,4 +32,4 @@ Furthermore, I have acquired slightly more specific knowledge in the fuel cells 
 
 Source: <a href="/src/pdf/Engineering%20Sciences_Thesis.pdf"><i class="large github icon "></i>See .pdf</a>
 
-Source: <a href="[https://github.com/jogarces/ics-313-text-game](https://github.com/Axiorzz/Bachelor_work/blob/main/Engineering%20Sciences_Thesis.pdf)](https://github.com/Axiorzz/Bachelor_work/blob/main/Thesis_Presentation.pdf)"><i class="large github icon "></i>Nikolas_Vitaliti/PPTX_Presentation</a>
+Source: <a href="https://axiorzz.github.io/src/pdf/Engineering%20Sciences_Thesis.pdf"><i class="large github icon "></i>Nikolas_Vitaliti/PPTX_Presentation</a>
