@@ -19,4 +19,4 @@ I've decided to create this document as I've always been the "Go-to" person when
 
 The document has had so far over 400 visualizations and most of the notes count about almost the same amount of downloads!
 
-You can see my UNFILTERED guide here: <a href="/src/Thesis/Eng_Guide"><i class="large github icon "></i>Engineering Guide by Nikolas Vitaliti</a>
+You can see my UNFILTERED guide here: <a href="/src/Thesis/Eng-Guide"><i class="large github icon "></i>Engineering Guide by Nikolas Vitaliti</a>
