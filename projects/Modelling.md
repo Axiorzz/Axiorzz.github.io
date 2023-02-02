@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Thesis/Thesis.jpg
+image: img/Modelling/Modelling.jpg
 title: "Calculations of Catalytic Properties of different surfaces"
 date: 2022
 published: true
@@ -14,7 +14,7 @@ labels:
 summary: "In this project computational modelling of materials for energy applications was performed."
 ---
 
-<img class="img-fluid" src="../img/Thesis/Thesis_Header.jpg">
+<img class="img-fluid" src="../img/Modelling/Modelling_Header.jpg">
 
 The project was divided in two main parts: 
 
