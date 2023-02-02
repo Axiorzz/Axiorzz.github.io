@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Nikolas Vitaliti",
-    "label": "Student",
+    "label": "Master Student",
     "picture": "https://github.com/Axiorzz.png",
     "email": "s223455@dtu.dk",
     "phone": "+45 52 74 41 72",
@@ -20,7 +20,7 @@
     { "name": "Sustainable Resources" },
     { "name": "Functional Materials" },
     { "name": "Project Management" },
-    { "name": "Entrepeneurship" }
+    { "name": "Entrepreneurship" }
               ],
   
   "skills": [
