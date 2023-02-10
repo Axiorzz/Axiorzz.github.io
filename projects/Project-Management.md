@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/Project_Management/PM.jpg
-title: "Project and case analysis"
+title: "Project and Case Analysis"
 date: 2023
 published: true
 labels:
