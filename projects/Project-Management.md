@@ -9,7 +9,7 @@ labels:
   - Miro Board
   - LaTeX
   - Interviews
-summary: "Full and thorough analysis of a project from the international fastening technology company "Titgemeyer"."
+summary: "Full and thorough analysis of a project from the international fastening technology company 'Titgemeyer'."
 ---
 
 <img class="img-fluid" src="../img/Project_Management/PM_header.jpg">
