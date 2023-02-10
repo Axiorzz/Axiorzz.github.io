@@ -4,7 +4,7 @@ type: project
 image: img/Project_Management/PM.jpg
 title: "Project and case analysis"
 date: 2023
-published: false
+published: true
 labels:
   - Miro Board
   - LaTeX
