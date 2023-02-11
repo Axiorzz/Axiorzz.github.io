@@ -4,7 +4,7 @@ type: project
 image: img/Eng_Guide/Eng_Guide.jpg
 title: "Engineering Guide"
 date: 2022
-published: true
+published: false
 labels:
   - Google Drive
   - Galaxy Notes
