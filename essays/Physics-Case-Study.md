@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Problem Analysis"
 # All dates must be YYYY-MM-DD format!
-date: 2022
+date: 2022-11-20
 published: true
 labels:
   - Research
@@ -14,7 +14,7 @@ labels:
 
 ---
 
-<img width="" class="rounded float-start pe-4" src="../img/Phy/ces.jpg">
+<img width="360" class="rounded float-start pe-4" src="../img/Phy/ces.jpg">
 
 In this project our group was assigned with the following problem:
 

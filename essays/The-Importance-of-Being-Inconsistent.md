@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "The Importance of Being Inconsistent"
 # All dates must be YYYY-MM-DD format!
-date: 2022
+date: 2022-09-12
 published: true
 labels:
   - Engineering
@@ -14,7 +14,7 @@ labels:
   - Video Presentation
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/Modelling/Imp.jpg">
+<img width="250px" class="rounded float-start pe-4" src="../img/Modelling/Imp.jpg">
 
 In this small project, we had been given and assigned a publication in the DFT field to read, critically analyze, understand, review and finally present to our peers in the easiest and clearest way possible in the form of a 15 minute video presentation.
 

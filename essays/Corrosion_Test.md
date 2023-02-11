@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Corrosion Test - StaySeat"
 # All dates must be YYYY-MM-DD format!
-date: 2023
+date: 2023-02-08
 published: true
 labels:
   - DIY
