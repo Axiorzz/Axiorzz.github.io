@@ -12,7 +12,7 @@ labels:
   - Arduino
 ---
 
-<img class="img-fluid" src="../img/Eng_Guide/Eng_Guide_Header.jpg">
+<img class="img-fluid" src="../img/StaySeat/prima.mp4">
 
 In this project I helped the StaySeat startup to build something able to perform a dipping corrosion test in saline water for their Copper disks used as magnetic conductive metal for charging purposes.
 The different pieces and materials have been chosen from the waste pile as the design did not have to be polished.
@@ -49,5 +49,4 @@ void loop() {
 
   ```
 
-
-You can see my UNFILTERED guide here: <a href="/src/Thesis/Eng-Guide.pdf"><i class="large github icon "></i>Engineering Guide by Nikolas Vitaliti</a>
+<img class="img-fluid" src="../img/StaySeat/dopo1.mp4">
