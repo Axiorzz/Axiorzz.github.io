@@ -23,4 +23,4 @@ I've therefore decided to set my peers and the new students up for success by tr
 
 The document has had so far <b>over 400 visualizations </b> and most of the notes count about almost the same amount of downloads!
 
-##### You can see my UNFILTERED guide here: <a href="/src/Thesis/Eng-Guide.pdf"><i class="large github icon "></i>Engineering Guide by Nikolas Vitaliti</a>
+> You can see my UNFILTERED guide here: <a href="/src/Thesis/Eng-Guide.pdf"><i class="large github icon "></i>Engineering Guide by Nikolas Vitaliti</a>
