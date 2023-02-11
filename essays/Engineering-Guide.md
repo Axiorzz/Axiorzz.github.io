@@ -1,19 +1,19 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "Engineering Guide"
 # All dates must be YYYY-MM-DD format!
 date: 2015-09-08
 published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - Google Drive
+  - Galaxy Notes
+  - OneNote
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+<img class="img-fluid" src="../img/Eng_Guide/Eng_Guide_Header.jpg">
 
-Document file containing all the informations, links to the notes and unfiltered advices coming from the experience gathered during my bachelor.
+Document file in which I've gathered all my notes and knowledge to help out my peers. The document contains all the informations, links to the notes and unfiltered advices coming from my experience through my bachelor.
 
 I've decided to create this document as I've always been the "Go-to" person when in need of anything accademically related. I've therefore decided to set my peers and the new students up for success by trying and sharing whatever I had in one easily accesible place. 
 
