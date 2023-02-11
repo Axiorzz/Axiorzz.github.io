@@ -26,4 +26,4 @@ In order to present the latter, I have decided to use means such as: Gifs, Video
 
 The Video Presentation ---> <a href="/src/Modelling/PowerPoint-Slide-Show-Assignment-Final-version.mp4"><i class="large github icon "></i>Watch the presentation</a>
 
-The PPTX ---> <a href="/src/Modelling/The-Importance-of-Being-Inconsistent.pptx"><i class="large github icon "></i>Open the PPTX</a>
+

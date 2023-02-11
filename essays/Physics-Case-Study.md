@@ -1,19 +1,29 @@
 ---
 layout: essay
 type: essay
-title: "Igniting the fire"
+title: "Problem Analysis"
 # All dates must be YYYY-MM-DD format!
-date: 2015-08-26
+date: 2022
 published: true
 labels:
-  - Software Engineering
+  - Research
   - Learning
+  - Analysis
+  - Physics
+  - Batteries
+
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/igniting/paintbrushes.jpg">
+<img width="100px" class="rounded float-start pe-4" src="../img/Phy/ces.jpg">
 
-Ever since I first grasped a paintbrush, I’ve always been eager to learn about design. Design is such a complex concept. For example, when looking at abstract art, its meaning can be completely different for different people. It motivates a person to think thoughtfully and has the potential to submerge them in a sea of imagination. It’s that special relationship between the viewer and the art that makes something as technical as software engineering interesting to me.
+In this project our group was assigned with the following problem:
 
-I never used to think that design and technology went hand in hand.  Thus, learning about software engineering and the role of design has been incredibly interesting to me. Design, implementation, and management are just some of the many things I wish to learn more about. Good art, in a way, makes a person question it. They become joined in the idea of visualization – where captivation meets inspiration.
+*The dream of electrifying airplanes seems impossible with our current state-of-the-art lithium-ion batteries. However Company X—a battery startup based in Leuven in Belgium—claims to have developed a new lithium-metal battery that has an energy density large enough to power airplanes. To demonstrate their technology, they loaded their batteries onto a small airplane (a brand new Cessna 152 Skyhawk) and flew it from Brussels Charleroi airport to Milan Bergamo airport, recharged the battery during an overnight stay (ca. 12 hours), and flew back to Brussels. The company claims that they modified the engine so that the shaft of the propeller is powered by an electric motor connected to their battery. To shake off suspicions that their flight operated on regular jet fuel, the company claims that the fuel tank was only a third full, which would have allowed for an emergency landing if the electric motor or the battery malfunctioned. The company has not disclosed exact figures for the energy or power density of their battery, but they did mention that only one person was aboard the airplane and that they took advantage of all available passenger and cargo space. After the successful demonstration of their technology, Company X is planning next to power a larger turboprop airplane (a Dash 8-400 acquired from failed British carrier Flybe) in a short intra-Europeanù route.*
 
-I am now starting to take a Software Engineering class. I hope to learn a lot through the course, but I know it will be just the beginning of my journey. By the time I’m done with it, I hope I’ve learned enough to take the next step in my life as a developer. But until then, my fire will keep on burning.
+Our task was to use our knowledge on the physics of sustainable energies up to our limits, and fill out the gaps we had with research (in our example, research has been carried out in the aviation in general). 
+
+The idea was to try and understand if what "Company X" proposed could have been real, or simply a lie. Point being: should one invest in such a company? Can we blindly trust what we are told? Or should we rather use our knowledge to approach such things?
+
+The report ---> <a href="/src/Physics/Group_1_Problem_7.pdf"><i class="large github icon "></i>Open the report</a>
+
+The presentation ---> <a href="/src/Physics/Analysis-Day-Problem-7.pptx"><i class="large github icon "></i>Open the presentation</a>
