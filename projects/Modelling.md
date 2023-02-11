@@ -16,11 +16,20 @@ summary: "In this project computational modelling of materials for energy applic
 
 <img class="img-fluid" src="../img/Modelling/Modelling_Header.jpg">
 
+
 The project was divided in two main parts: 
 
-For the first part, the reaction energy of water splitting using different functionals (LDA, PBE, PBEsol, RPBE) in LCAO and PW mode was calculated. In this way, a better understanding on the best method and functional to be used could be investigated. Moreover, by analyzing the DATA, a clear overview of the best accuracies with respect to the experimental value could be determined. 
+-------
+## Reaction Energy of Water Splitting
+-----
+For this first part, the reaction energy of water splitting using different functionals (LDA, PBE, PBEsol, RPBE) in LCAO and PW mode was calculated. 
 
-For the second part, the catalytic properties of different surface were calculated instead. Main parts of the tasks performed were: 
+In this way, a better understanding on the best method and functional to be used could be investigated. Moreover, by analyzing the DATA, a clear overview of the best accuracies with respect to the experimental value could be determined. 
+
+-----
+## Catalytic Properties
+----
+For this second part, the catalytic properties of different surface were calculated instead. Main parts of the tasks performed were: 
 
 - Building a Ru and a Cu 2x2x3 FCC(111) using the ASE module and adding an hydrogen atom in the FCC hollow site. Performing a convergence test for k-points and cutoff energy using the PBE functional in the PW mode for said slabs.
 - Performing a convergence test of the size of the slabs keeping the parameters selected to see if the slabs sizes were "Good enough".
@@ -60,4 +69,5 @@ e_fcc = energies_slab['shortbridge'] - energies_slab['clean'] - 1/2. * energies[
 e_hcp = energies_slab['hollow'] - energies_slab['clean'] - 1/2. * energies['H2', 'PBE']
  ```
 
-Presentation of the results can be seen here ---> <a href="/src/Modelling/Final Project.pptx"><i class="large github icon "></i>Final Project</a>
+
+>Presentation of the results can be seen here ---> <a href="/src/Modelling/Final Project.pptx"><i class="large github icon "></i>Final Project</a>
