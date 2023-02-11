@@ -26,7 +26,7 @@
   "skills": [
     {
       "name": "Programming",
-      "keywords": [ "Density Functional Theory (DFT)", "Jupyter Notebook", "Python", "LaTeX", "Amsterdam Modelling Suit (AMS)", "Visual Studio Code"]
+      "keywords": [ "Density Functional Theory (DFT)", "Jupyter Notebook", "Python", "LaTeX", "Amsterdam Modelling Suit (AMS)", "Visual Studio Code", "Arduino"]
     },
     {
       "name": "Softwares",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Laboratory Experience",
-      "keywords": [ "Pulsed Laser Deposition (PLD)", "X-Ray Diffraction (XRD)", "Reflection high-energy electron diffraction (RHEED)", "Chemistry-Lab", "Solar Cells-                         Lab", "Manufacturing-Lab" ]
+      "keywords": [ "Pulsed Laser Deposition (PLD)", "X-Ray Diffraction (XRD)", "Reflection high-energy electron diffraction (RHEED)", "Chemistry-Lab", "Solar Cells- Lab", "Manufacturing-Lab" ]
     }
             ],
   

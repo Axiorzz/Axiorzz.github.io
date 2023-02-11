@@ -45,7 +45,7 @@ This project investigates the properties of a static organic redox (flow) batter
 
 --------------------------------
 
- ## Excited States of Donor-Acceptors materials
+## Excited States of Donor-Acceptors materials
 -------
 This project investigates a set of organic donor-acceptor (D-A) molecules. The different sets of molecules have been investigated through ground state optimization and electronic structure calculations. This has been done using the Amsterdam Modeling Suite to first create the molecules, optimize their geometry and perform the different analysis.
 

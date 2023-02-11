@@ -14,7 +14,7 @@ labels:
 
 ---
 
-<img width="360" class="rounded float-start pe-4" src="../img/Phy/ces.jpg">
+<img width="380" class="rounded float-start pe-4" src="../img/Phy/ces.jpg">
 
 In this project our group was assigned with the following problem:
 
