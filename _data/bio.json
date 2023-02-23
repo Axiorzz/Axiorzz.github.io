@@ -1,0 +1,62 @@
+{
+  "basics": {
+    "name": "Nikolas Vitaliti",
+    "label": "Master Student",
+    "picture": "https://github.com/Axiorzz.png",
+    "email": "s223455@dtu.dk",
+    "phone": "+45 52 74 41 72",
+    "website": "https://Axiorzz.github.io",
+    "summary": "I am studying for a M.Sc. in Sustainable Energy in the Energy Conversion and Storage department at the Technical University of Denmark (DTU). I have graduated in half the time from a B.Sc. in Engineering Sciences following the Mechanical/Energy Engineering block at the University of Rome Tor Vergata. The links to my work are at the end of every page.",
+    "location": { "address": "", "postalCode": "2880", "city": "Gladsaxe", "countryCode": "DK", "region": "Denmark" },
+    "profiles": [
+      { "network": "github", "username": "Axiorzz", "url": "https://github.com/Axiorzz" },
+      { "network": "linkedin", "username": "nikolasvitaliti", "url": "https://www.linkedin.com/in/nikolasvitaliti/" }
+      
+                ]
+            },
+  
+  "interests": [
+    { "name": "Green Energy" },
+    { "name": "Sustainable Resources" },
+    { "name": "Functional Materials" },
+    { "name": "Project Management" },
+    { "name": "Entrepreneurship" }
+              ],
+  
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [ "Density Functional Theory (DFT)", "Jupyter Notebook", "Python", "LaTeX", "Amsterdam Modelling Suit (AMS)", "Visual Studio Code", "Arduino"]
+    },
+    {
+      "name": "Softwares",
+      "keywords": [ "Excel", "Power Point", "Git/GitHub", "PS-Trace", "OneNote", "Google Drive", "Samsung Notes", "Office Package", "Miro Board"]
+    },
+    {
+      "name": "Laboratory Experience",
+      "keywords": [ "Pulsed Laser Deposition (PLD)", "X-Ray Diffraction (XRD)", "Reflection high-energy electron diffraction (RHEED)", "Chemistry-Lab", "Solar Cells- Lab", "Manufacturing-Lab" ]
+    }
+            ],
+  
+  "education": [
+    {
+      "institution": "Technical University of Denmark (DTU), Kongens Lyngby, DK",
+      "area": "Energy Conversion and Storage (expected between Summer 2024 and Autumn 2025)",
+      "studyType": "M.Sc.",
+      "startDate": "2022-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    },
+    
+    {
+      "institution": "University Of Rome Tor Vergata, Rome, IT",
+      "area": "Engineering Sciences",
+      "studyType": "B.Sc.",
+      "startDate": "2020-09-01",
+      "endDate": "2022-06-16",
+      "courses": [
+      ]
+    }
+            ]
+}

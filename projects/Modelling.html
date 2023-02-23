@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Calculations of Catalytic Properties of different surfaces | Nikolas Vitaliti | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/Axiorzz.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Nikolas Vitaliti | Professional Portfolio">
+    <meta property="og:url" content="https://Axiorzz.github.io/projects/Modelling.html">
+    <meta property="og:title" content="Calculations of Catalytic Properties of different surfaces | Nikolas Vitaliti | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/Axiorzz.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Calculations of Catalytic Properties of different surfaces | Nikolas Vitaliti | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Nikolas Vitaliti</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Calculations of Catalytic Properties of different surfaces</h1>
+ <p><img class="img-fluid" src="../img/Modelling/Modelling_Header.jpg" /></p>
+
+<p>The project was divided in two main parts:</p>
+
+<hr />
+<h2 id="reaction-energy-of-water-splitting">Reaction Energy of Water Splitting</h2>
+<hr />
+<p>For this first part, the reaction energy of water splitting using different functionals (LDA, PBE, PBEsol, RPBE) in LCAO and PW mode was calculated.</p>
+
+<p>In this way, a better understanding on the best method and functional to be used could be investigated. Moreover, by analyzing the DATA, a clear overview of the best accuracies with respect to the experimental value could be determined.</p>
+
+<hr />
+<h2 id="catalytic-properties">Catalytic Properties</h2>
+<hr />
+<p>For this second part, the catalytic properties of different surface were calculated instead. Main parts of the tasks performed were:</p>
+
+<ul>
+  <li>Building a Ru and a Cu 2x2x3 FCC(111) using the ASE module and adding an hydrogen atom in the FCC hollow site. Performing a convergence test for k-points and cutoff energy using the PBE functional in the PW mode for said slabs.</li>
+  <li>Performing a convergence test of the size of the slabs keeping the parameters selected to see if the slabs sizes were “Good enough”.</li>
+  <li>Cycling through the different functionals to understand which would give the most accurate adsorption energy on the respective slabs.</li>
+  <li>Cycling through all the different adsorption sites of both the slabs to investigate the adsorption energy differences.</li>
+  <li>Constructing a Ru surface and replace the top layer with Cu atoms. Calculate the adsorption energies, and understanding why are they different with respect to the case of pure Ru and pure Cu.</li>
+</ul>
+
+<p>A small part of the code can be seen below, in which the adsorbate was put in different sites of the Cu slab and energies were calculated.</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="cp"># Run through the configurations with a H adsorbate
+</span><span class="k">for</span> <span class="n">position</span> <span class="n">in</span> <span class="p">[</span><span class="err">'</span><span class="n">ontop</span><span class="sc">','</span><span class="n">longbridge</span><span class="sc">','</span><span class="n">shortbridge</span><span class="sc">','</span><span class="n">hollow</span><span class="err">'</span><span class="p">]</span><span class="o">:</span>
+    <span class="n">parprint</span><span class="p">(</span><span class="err">'</span><span class="n">Relaxing</span> <span class="p">{}</span><span class="err">'</span><span class="p">.</span><span class="n">format</span><span class="p">(</span><span class="n">position</span><span class="p">))</span>
+    <span class="n">atoms</span> <span class="o">=</span> <span class="n">slab</span><span class="p">.</span><span class="n">copy</span><span class="p">()</span>  <span class="err">#</span> <span class="n">Make</span> <span class="n">a</span> <span class="k">new</span> <span class="n">clean</span> <span class="n">copy</span>
+    
+    <span class="n">add_adsorbate</span><span class="p">(</span><span class="n">slab</span><span class="o">=</span><span class="n">atoms</span><span class="p">,</span> <span class="n">adsorbate</span><span class="o">=</span><span class="sc">'H'</span><span class="p">,</span>
+                  <span class="n">height</span><span class="o">=</span><span class="mf">1.5</span><span class="p">,</span> <span class="n">position</span><span class="o">=</span><span class="n">position</span><span class="p">)</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="err">'</span><span class="n">H</span><span class="o">-</span><span class="err">'</span><span class="o">+</span><span class="n">position</span>
+    
+    <span class="n">calc</span> <span class="o">=</span> <span class="n">GPAW</span><span class="p">(</span><span class="n">txt</span><span class="o">=</span><span class="err">'</span><span class="n">relax</span><span class="o">-</span><span class="n">Cu110_</span><span class="err">'</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="err">'</span><span class="p">.</span><span class="n">txt</span><span class="err">'</span><span class="p">,</span> <span class="o">**</span><span class="n">settings</span><span class="p">)</span>
+    
+    <span class="n">atoms</span><span class="p">.</span><span class="n">calc</span> <span class="o">=</span> <span class="n">calc</span>
+    <span class="n">relax</span> <span class="o">=</span> <span class="n">BFGS</span><span class="p">(</span><span class="n">atoms</span><span class="p">,</span> <span class="n">trajectory</span><span class="o">=</span><span class="err">'</span><span class="n">relax</span><span class="o">-</span><span class="n">Cu110_</span><span class="err">'</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="err">'</span><span class="p">.</span><span class="n">traj</span><span class="err">'</span><span class="p">,</span>
+                 <span class="n">logfile</span><span class="o">=</span><span class="err">'</span><span class="n">relax</span><span class="o">-</span><span class="n">Cu110_</span><span class="err">'</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="err">'</span><span class="p">.</span><span class="n">log</span><span class="err">'</span><span class="p">)</span>
+    <span class="n">relax</span><span class="p">.</span><span class="n">run</span><span class="p">(</span><span class="n">fmax</span><span class="o">=</span><span class="mf">0.05</span><span class="p">)</span>
+    <span class="n">calc</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="err">'</span><span class="n">Cu110_</span><span class="err">'</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="err">'</span><span class="p">.</span><span class="n">gpw</span><span class="err">'</span><span class="p">)</span>
+    <span class="n">energies_slab</span><span class="p">[</span><span class="n">position</span><span class="p">]</span> <span class="o">=</span> <span class="n">atoms</span><span class="p">.</span><span class="n">get_potential_energy</span><span class="p">()</span>
+
+<span class="cp"># Get energies for H2 we calculated earlier
+</span><span class="n">with</span> <span class="n">paropen</span><span class="p">(</span><span class="err">'</span><span class="n">energies_ex2</span><span class="p">.</span><span class="n">pckl</span><span class="err">'</span><span class="p">,</span> <span class="err">'</span><span class="n">rb</span><span class="err">'</span><span class="p">)</span> <span class="n">as</span> <span class="n">f</span><span class="o">:</span>
+    <span class="n">energies</span> <span class="o">=</span> <span class="n">pickle</span><span class="p">.</span><span class="n">load</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>
+
+<span class="cp"># Calculate adsorption energies
+</span><span class="n">e_ontop</span> <span class="o">=</span> <span class="n">energies_slab</span><span class="p">[</span><span class="err">'</span><span class="n">ontop</span><span class="err">'</span><span class="p">]</span> <span class="o">-</span> <span class="n">energies_slab</span><span class="p">[</span><span class="err">'</span><span class="n">clean</span><span class="err">'</span><span class="p">]</span> <span class="o">-</span> <span class="mi">1</span><span class="o">/</span><span class="mf">2.</span> <span class="o">*</span> <span class="n">energies</span><span class="p">[</span><span class="err">'</span><span class="n">H2</span><span class="err">'</span><span class="p">,</span> <span class="err">'</span><span class="n">PBE</span><span class="err">'</span><span class="p">]</span>
+<span class="n">e_bridge</span> <span class="o">=</span> <span class="n">energies_slab</span><span class="p">[</span><span class="err">'</span><span class="n">longbridge</span><span class="err">'</span><span class="p">]</span> <span class="o">-</span> <span class="n">energies_slab</span><span class="p">[</span><span class="err">'</span><span class="n">clean</span><span class="err">'</span><span class="p">]</span> <span class="o">-</span> <span class="mi">1</span><span class="o">/</span><span class="mf">2.</span> <span class="o">*</span> <span class="n">energies</span><span class="p">[</span><span class="err">'</span><span class="n">H2</span><span class="err">'</span><span class="p">,</span> <span class="err">'</span><span class="n">PBE</span><span class="err">'</span><span class="p">]</span>
+<span class="n">e_fcc</span> <span class="o">=</span> <span class="n">energies_slab</span><span class="p">[</span><span class="err">'</span><span class="n">shortbridge</span><span class="err">'</span><span class="p">]</span> <span class="o">-</span> <span class="n">energies_slab</span><span class="p">[</span><span class="err">'</span><span class="n">clean</span><span class="err">'</span><span class="p">]</span> <span class="o">-</span> <span class="mi">1</span><span class="o">/</span><span class="mf">2.</span> <span class="o">*</span> <span class="n">energies</span><span class="p">[</span><span class="err">'</span><span class="n">H2</span><span class="err">'</span><span class="p">,</span> <span class="err">'</span><span class="n">PBE</span><span class="err">'</span><span class="p">]</span>
+<span class="n">e_hcp</span> <span class="o">=</span> <span class="n">energies_slab</span><span class="p">[</span><span class="err">'</span><span class="n">hollow</span><span class="err">'</span><span class="p">]</span> <span class="o">-</span> <span class="n">energies_slab</span><span class="p">[</span><span class="err">'</span><span class="n">clean</span><span class="err">'</span><span class="p">]</span> <span class="o">-</span> <span class="mi">1</span><span class="o">/</span><span class="mf">2.</span> <span class="o">*</span> <span class="n">energies</span><span class="p">[</span><span class="err">'</span><span class="n">H2</span><span class="err">'</span><span class="p">,</span> <span class="err">'</span><span class="n">PBE</span><span class="err">'</span><span class="p">]</span>
+</code></pre></div></div>
+
+<blockquote>
+  <p>Presentation of the results can be seen here —&gt; <a href="/src/Modelling/Final Project.pptx"><i class="large github icon "></i>Final Project</a></p>
+</blockquote>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
